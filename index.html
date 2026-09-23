@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Lighthouse Apps LLC builds focused mobile applications for learning, planning, and specialized technical workflows.">
+  <title>Lighthouse Apps LLC</title>
+  <style>
+    :root { color-scheme: light; --ink: #14212b; --muted: #596875; --blue: #0d5c75; --paper: #f5f1e8; --card: #fffdf8; --line: #d7ddd9; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { width: min(920px, calc(100% - 40px)); margin: 0 auto; padding: 72px 0; }
+    header { max-width: 700px; margin-bottom: 56px; }
+    .eyebrow { color: var(--blue); font-size: .78rem; font-weight: 750; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 10px 0 16px; font-family: Georgia, serif; font-size: clamp(2.7rem, 8vw, 5rem); line-height: .98; letter-spacing: -.04em; }
+    header p { margin: 0; color: var(--muted); font-size: 1.1rem; }
+    h2 { margin: 0 0 20px; font-size: 1rem; letter-spacing: .08em; text-transform: uppercase; }
+    .projects { display: grid; gap: 16px; }
+    article { padding: 26px; border: 1px solid var(--line); border-radius: 14px; background: var(--card); box-shadow: 0 8px 28px rgb(20 33 43 / 5%); }
+    article h3 { margin: 0 0 8px; font-family: Georgia, serif; font-size: 1.45rem; }
+    article p { margin: 0; color: var(--muted); }
+    footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+    a { color: var(--blue); text-underline-offset: 3px; }
+    @media (min-width: 760px) { .projects { grid-template-columns: repeat(3, 1fr); } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">Independent mobile software</div>
+      <h1>Lighthouse Apps LLC</h1>
+      <p>Focused mobile applications for learning, planning, and specialized technical workflows.</p>
+    </header>
+
+    <section aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects:</h2>
+      <div class="projects">
+        <article>
+          <h3>Lighthouse Trivia</h3>
+          <p>A trivia and memory-training app for exploring topics, reviewing past questions, tracking progress, and learning with friends.</p>
+        </article>
+        <article>
+          <h3>Viavi Osprey</h3>
+          <p>A Flutter mobile application that assists GPS simulation workflows for avionics testing and related field work.</p>
+        </article>
+        <article>
+          <h3>WAAT</h3>
+          <p><em>Week at a Time</em> is an iOS app that presents tasks and events in one simple, visual weekly view.</p>
+        </article>
+      </div>
+    </section>
+
+    <footer>
+      <span>&copy; 2026 Lighthouse Apps LLC</span> &middot; <a href="https://github.com/loganderson">GitHub</a>
+    </footer>
+  </main>
+</body>
+</html>
